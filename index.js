@@ -54,7 +54,7 @@ async function running(setNumber, workout, rest){
 function intervalTimer(selectWorkout) {
   return new Promise(resolve => {
       setTimeout(() => {
-        const startEffect = player.play('./mp3/start_effect.mp3')
+        const startEffect = player.play('./start_effect.mp3')
         resolve()
       }, selectWorkout * 1000)
     }
@@ -64,7 +64,7 @@ function intervalTimer(selectWorkout) {
 function firstWorkout(second) {
   return new Promise(resolve => {
     setTimeout(() => {
-      const startEffect = player.play('./mp3/start_effect.mp3')
+      const startEffect = player.play('./start_effect.mp3')
       resolve()
     }, second * 1000)
   })
