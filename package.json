@@ -1,6 +1,6 @@
 {
   "name": "hiit_timer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Intervaltimer for performing HIIT(High Intensity Interval Training).",
   "main": "index.js",
   "bin": {
