@@ -2,12 +2,15 @@
 Intervaltimer for performing HIIT(High Intensity Interval Training).
 
 ## install
-npm i hiit-timer
+npm i hiit_timer
 
 ## Usage
 1.Execute the command.
 
-`$ node hiit-timer`
+```
+$ cd ./node_modules/hiit_timer
+$ hiit_timer
+```
 
 2.select workout time
 
