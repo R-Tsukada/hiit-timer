@@ -2,6 +2,7 @@
 Intervaltimer for performing HIIT(High Intensity Interval Training).
 
 ## install
+
 ```
 npm i hiit_timer
 ```
