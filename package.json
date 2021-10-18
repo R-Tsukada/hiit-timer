@@ -9,6 +9,7 @@
   "dependencies": {
     "ansi-regex": "^2.1.1",
     "code-point-at": "^1.1.0",
+    "enquirer": "^2.3.6",
     "find-exec": "^1.0.1",
     "g": "^2.0.1",
     "is-fullwidth-code-point": "^1.0.0",
