@@ -5,10 +5,6 @@ const player = require('play-sound')(opts = {})
 const { prompt } = require('enquirer')
 const emoji = require('node-emoji');
 
-(async()=> {
-  hiitTimer()
-})()
-
 async function hiitTimer(){
   const workoutTimer = await prompt(
     [
@@ -69,3 +65,5 @@ function firstWorkout(second) {
     }, second * 1000)
   })
 }
+
+hiitTimer()
